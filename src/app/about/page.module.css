@@ -16,7 +16,6 @@
   background-image: url('/restaurant_ambiance.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   z-index: 0;
 }
 
@@ -175,7 +174,6 @@
   color: var(--surface);
   background-image: linear-gradient(rgba(15, 10, 8, 0.85), rgba(15, 10, 8, 0.85)), url('/images/slate-texture.png');
   background-size: cover;
-  background-attachment: fixed;
   position: relative;
 }
 

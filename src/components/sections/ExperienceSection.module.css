@@ -4,7 +4,6 @@
   background-image: linear-gradient(rgba(15, 10, 8, 0.85), rgba(15, 10, 8, 0.85)), url('/images/slate-texture.png');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   color: var(--surface);
   position: relative;
   overflow: hidden;
