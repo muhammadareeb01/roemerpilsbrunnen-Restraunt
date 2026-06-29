@@ -1,0 +1,22 @@
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.line {
+  height: 1px;
+  width: 40px;
+  background-color: var(--ink);
+  opacity: 0.2;
+}
+
+.text {
+  font-family: var(--font-dm-mono);
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--ink);
+  opacity: 0.6;
+}

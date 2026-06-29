@@ -1,0 +1,16 @@
+.container {
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #2e7d32;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #2e7d32;
+}

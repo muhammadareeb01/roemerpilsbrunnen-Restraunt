@@ -1,0 +1,58 @@
+.form {
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.section h3 {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.inputGroup label {
+  display: block;
+  font-family: var(--font-dm-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: var(--surface-2);
+  border: 1px solid transparent;
+  border-radius: 2px;
+  font-family: var(--font-dm-sans);
+  font-size: 14px;
+  transition: border-color 0.2s;
+  outline: none;
+}
+
+.input:focus {
+  border-color: var(--terra);
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}

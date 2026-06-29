@@ -1,0 +1,11 @@
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: var(--terra-light);
+  color: var(--surface);
+  font-family: var(--font-dm-mono);
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 2px;
+}

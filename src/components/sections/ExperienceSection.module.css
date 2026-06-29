@@ -1,0 +1,74 @@
+.section {
+  padding: 120px 24px;
+  background-color: var(--ink);
+  background-image: linear-gradient(rgba(15, 10, 8, 0.85), rgba(15, 10, 8, 0.85)), url('/images/slate-texture.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--surface);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.content {
+  max-width: 500px;
+}
+
+.title {
+  font-family: var(--font-cormorant);
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  color: var(--surface);
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 56px;
+  }
+}
+
+.text {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-bottom: 40px;
+  line-height: 1.8;
+  color: var(--sand);
+}
+
+.imageCol {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 580px;
+  aspect-ratio: 4/3;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.img {
+  object-fit: cover;
+}
